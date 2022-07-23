@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     name: my-app
-    image: us.gcr.io/dv-michael-olaleye-1/my-app
+    image: docker pull gcr.io/dv-michael-olaleye-1/helloworld-image:latest
     ports:
       containerPort: 80
